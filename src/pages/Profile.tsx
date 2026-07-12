@@ -5,7 +5,7 @@ import { useAuth } from "@/lib/auth-context";
 import API from "@/api/axios";
 import { User, Mail, Phone, Briefcase, LogOut, Package } from "lucide-react";
 import { useDocumentTitle } from "@/lib/use-document-title";
-import "./styles.css";
+
 
 type Order = {
   _id: string;
