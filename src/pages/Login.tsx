@@ -72,14 +72,13 @@ export default function LoginPage() {
             <button className="border-b-4 border-green-600 pb-2 text-xl font-bold">
               LOGIN
             </button>
-
             <button
-              onClick={() => window.location.href="/register"}
+              type="button"
+              onClick={() => navigate("/register")}
               className="text-xl text-gray-500 hover:text-green-600"
-            >
+              >
               SIGN UP
             </button>
-
           </div>
 
           <form className="space-y-6" onSubmit={handleSubmit}>
